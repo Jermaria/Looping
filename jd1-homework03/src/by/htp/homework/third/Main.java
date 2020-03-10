@@ -129,12 +129,12 @@ public class Main {
 		h = 2;
 		
 		if (x == 15) {
-			for (int i = a; i <= b; i = a + h) {
+			for (int i = a; i <= b; i = i + h) {
 				y = (i + c) * 2;
 				System.out.println("y = " + y);
 			}
 		} else {
-			for (int i = a; i <= b; i = a + h) {
+			for (int i = a; i <= b; i = i + h) {
 				y = i - c + 6;
 				System.out.println("y = " + y);
 			}
